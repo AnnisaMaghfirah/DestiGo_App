@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Annisa Maghfirah - DestiGo</string>
+    <string name="wisata_name">Nama Wisata</string>
+    <string name="wisata_location">Lokasi</string>
+    <string name="rating">Rating</string>
+    <string name="description">Deksripsi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

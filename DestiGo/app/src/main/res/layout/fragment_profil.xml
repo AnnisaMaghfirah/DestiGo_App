@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="154dp"
+        android:layout_height="199dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="Profile Image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/foto" />
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Annisa Maghfirah"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nim_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="2110817220002"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/description_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:text="Nisa adalah seorang mahasiswi semester 4 di Program Studi Teknologi Informasi Fakultas Teknik Universitas Lambung Mangkurat. Dia adalah seorang yang antusias, disiplin, kreatif, dan bersemangat dalam belajar, serta memiliki jiwa kepemimpinan yang tinggi. Dalam kegiatan kampus, Nisa aktif dalam organisasi mahasiswa, yaitu Himpunan Mahasiswa Teknologi Informasi. Dengan kepribadian yang ramah dan kemampuan komunikasi yang baik, Nisa mudah bergaul dan berkolaborasi dengan teman-temannya dalam lingkungan akademik. Dia memiliki semangat untuk terus berkembang dan menjelajahi bidang studi yang diminatinya."
+        android:textSize="16sp" />
+
+</LinearLayout>
